@@ -1,138 +1,192 @@
-# Hi, I'm a Developer 👋
+<h1 align="center">Hi 👋, I'm Ayush Singh</h1>
+<h3 align="center">AI Engineer | Full Stack Developer | Building Scalable Tech & Startups</h3>
 
-<div align="center">
+<p align="center">
+<a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/followers/eayushsingh?label=Followers&style=social" /></a>
+<a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/stars/eayushsingh?affiliations=OWNER%2CCOLLABORATOR&style=social" /></a>
+<a href="https://www.linkedin.com/in/ayush-singh-8b5418344/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" /></a>
+<a href="https://x.com/eAyyushhSingh"><img src="https://img.shields.io/twitter/follow/eAyyushhSingh?style=social" /></a>
+</p>
 
-### Full Stack Developer | Open Source Enthusiast | Problem Solver
-
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=flat-square)](https://yourportfolio.com)
-
-</div>
-
----
-
-## 🚀 About Me
-
-I'm a passionate developer crafting elegant solutions to complex problems. With expertise across the full stack, I focus on building scalable applications, contributing to open source, and continuously evolving my skillset.
-
-- 🎯 **What I Do**: Build modern web applications, contribute to open source, mentor developers
-- 💡 **Tech Stack**: JavaScript, React, Node.js, Python, TypeScript
-- 🌱 **Currently Learning**: Advanced system design, cloud architecture, AI/ML
-- 📧 **Let's Connect**: [Email](mailto:your@email.com)
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=eayushsingh&label=Profile%20Views&color=blue&style=flat" alt="profile views"/>
+</p>
 
 ---
 
-## 💻 Technologies & Tools
+# 🚀 About Me
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+I’m a **software engineer and AI enthusiast** passionate about building scalable systems, intelligent applications, and innovative startups. I combine **software engineering, machine learning, and cloud technologies** to develop impactful digital products.
+
+🔹 **Focus Areas**
+
+- Full Stack Development  
+- Artificial Intelligence & Data Science  
+- Cloud Computing & Scalable Systems  
+- Startup Product Development  
+
+🔹 **Technical Expertise**
+
+- Python  
+- Java  
+- Spring Boot  
+- Machine Learning  
+- Data Visualization (Tableau)  
+- REST API Development  
+
+🔹 **Currently Learning**
+
+- Advanced System Design  
+- Cloud Native Architecture  
+- Distributed Systems  
+
+🔹 **Open To**
+
+- Open Source Collaboration  
+- Startup Projects  
+- Knowledge Sharing  
+
+📫 **Contact Me**
+
+- LinkedIn: https://www.linkedin.com/in/ayush-singh-8b5418344/
+
+---
+
+# 🛠 Tech Stack
+
+### 👨‍💻 Languages
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/Java-F89820?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 🌐 Frontend
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+### ⚙️ Backend
+
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### ☁️ Cloud & DevOps
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### 📊 Data & AI
+
+![Machine Learning](https://img.shields.io/badge/MachineLearning-FF6F00?style=for-the-badge)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Statistics
 
-<div align="center">
+<p align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=eayushsingh&show_icons=true&theme=tokyonight" height="180"/>
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eayushsingh&layout=compact&theme=tokyonight" height="180"/>
 
-[![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)](https://github.com/DenverCoder1/github-readme-streak-stats)
+</p>
 
-</div>
-
----
-
-## 🏆 Highlighted Projects
-
-### ⚡ Project One
-A blazing-fast web application with modern architecture
-- Built with React, Node.js, and PostgreSQL
-- 🚀 Production-ready with optimal performance
-- 🔒 Secure authentication system
-- [View Repository](https://github.com/yourusername/project-one)
-
-### 🛠️ Project Two
-Developer tools and utilities for productivity
-- TypeScript implementation with zero dependencies
-- 📚 Comprehensive documentation
-- 🎯 Easy to integrate and use
-- [View Repository](https://github.com/yourusername/project-two)
-
-### 🌐 Project Three
-Open source contribution or personal portfolio project
-- Community-focused development
-- 👥 Active maintenance and support
-- ✨ Growing user base
-- [View Repository](https://github.com/yourusername/project-three)
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=eayushsingh&theme=tokyonight" />
+</p>
 
 ---
 
-## 🎯 Open Source & Community
+# 🌟 Featured Projects
 
-- 📝 Active contributor to popular open source projects
-- 🤝 Mentoring developers and sharing knowledge
-- 💬 Engaging with tech communities
-- 🎓 Writing technical content and blogs
+### 🏢 Fractional Real Estate Investment Platform
 
----
+A digital platform enabling users to invest in **fractional ownership of real estate assets**.
 
-## 🎖️ Achievements
+**Key Features**
 
-- ✅ 500+ GitHub followers
-- ✅ Multiple projects with 100+ stars
-- ✅ Published technical articles
-- ✅ Active open source contributor
-- ✅ Completed advanced certifications
+- 🏘 Fractional property investment  
+- 💰 Portfolio tracking  
+- 📊 Investment analytics dashboard  
+- 🔒 Secure transaction model  
+
+Tech Stack: Java, Spring Boot
 
 ---
 
-## 📞 Get In Touch
+### 🌐 Digital Marketing Website – Vellix.site
 
-<div align="center">
+A **high-performance digital marketing website** designed to help businesses grow their online presence and generate leads.
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/yourprofile)
-[<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/yourhandle)
-[<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=globe&logoColor=white" />](https://yourportfolio.com)
-[<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:your@email.com)
+**Key Features**
 
-</div>
+- 🚀 Modern and responsive UI for business websites  
+- 📈 SEO-optimized structure for better search ranking  
+- ⚡ Fast loading and performance optimized  
+- 💼 Built for companies looking to scale their online presence  
 
----
-
-## 💡 Fun Facts
-
-- 🎮 Passionate about clean code and best practices
-- 📚 Lifelong learner always exploring new technologies
-- 🌍 Open to remote opportunities and collaboration
-- ☕ Fueled by coffee and curiosity
+Tech Stack: HTML, CSS, JavaScript
 
 ---
 
-<div align="center">
+### 🤖 AI Data Analytics Dashboard
 
-**⭐ If you find something useful, feel free to star it!**
+A machine learning project focused on **data insights and prediction**.
 
-</div>
+**Key Features**
+
+- 📊 Interactive dashboards  
+- 🤖 ML models  
+- 📈 Business insights  
+- ⚡ Real-time analytics  
+
+Tech Stack: Python, Tableau
+
+---
+
+# 🌍 Open Source Contributions
+
+I contribute to open-source by:
+
+✔ Fixing bugs  
+✔ Improving documentation  
+✔ Adding features  
+✔ Code optimization  
+
+---
+
+# 🏆 Achievements
+
+✔ Solved **1000+ coding problems** on competitive programming platforms  
+✔ Built multiple **real-world projects**  
+✔ Experience in **AI, backend systems, and data science**  
+✔ Entrepreneurial experience building a **fractional real estate platform**
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/ayush-singh-8b5418344/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://x.com/eAyyushhSingh">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
+</a>
+
+<a href="https://github.com/eayushsingh">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+⭐ From <a href="https://github.com/eayushsingh">Ayush Singh</a> — Building the future with code.
+</p>
