@@ -73,7 +73,7 @@ I'm an AI & Data Science enthusiast pursuing my BTech degree while actively buil
 - 🎯 Built with: **Spring Boot, React, MongoDB, PostgreSQL**
 - ⭐ Real-world production application with live users
 
-### [Velex.site](https://vellix.site)
+### [Vellex.site](https://vellix.site)
 **Digital Agency Platform**
 - 🎨 Showcasing digital services to clients
 - 📈 Portfolio and case studies showcase
