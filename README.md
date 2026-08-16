@@ -4,7 +4,7 @@
 <p align="center">
 <a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/followers/eayushsingh?label=Followers&style=social" /></a>
 <a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/stars/eayushsingh?affiliations=OWNER%2CCOLLABORATOR&style=social" /></a>
-<a href="https://x.com/eAyyushhSingh"><img src="https://img.shields.io/twitter/follow/eAyyushhSingh?style=social" /></a>
+
 </p>
 
 <p align="center">
