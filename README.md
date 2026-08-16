@@ -4,7 +4,6 @@
 <p align="center">
 <a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/followers/eayushsingh?label=Followers&style=social" /></a>
 <a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/stars/eayushsingh?affiliations=OWNER%2CCOLLABORATOR&style=social" /></a>
-<a href="https://www.linkedin.com/in/ayush-singh-8b5418344/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" /></a>
 <a href="https://x.com/eAyyushhSingh"><img src="https://img.shields.io/twitter/follow/eAyyushhSingh?style=social" /></a>
 </p>
 
@@ -45,10 +44,6 @@ I’m a **software engineer and AI enthusiast** passionate about building scalab
 - Open Source Collaboration  
 - Startup Projects  
 - Knowledge Sharing  
-
-📫 **Contact Me**
-
-- LinkedIn: https://www.linkedin.com/in/ayush-singh-8b5418344/
 
 ---
 
@@ -168,17 +163,6 @@ I contribute to open-source by:
 ---
 
 # 🌐 Connect With Me
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/ayush-singh-8b5418344/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="https://x.com/eAyyushhSingh">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
-</a>
-
 <a href="https://github.com/eayushsingh">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
