@@ -1,176 +1,242 @@
-<h1 align="center">Hi 👋, I'm Ayush Singh</h1>
-<h3 align="center">AI Engineer | Full Stack Developer | Building Scalable Tech & Startups</h3>
+<div align="center">
+
+# Ayush Singh
+
+### AI Engineer · Full-Stack Developer · FinTech Builder
+
+**Building scalable software, intelligent systems, and products at the intersection of AI and financial technology.**
+
+<p>
+  <a href="https://github.com/eayushsingh">
+    <img src="https://img.shields.io/github/followers/eayushsingh?style=flat-square&label=Followers&color=24292f" />
+  </a>
+  <a href="https://github.com/eayushsingh?tab=repositories">
+    <img src="https://img.shields.io/github/stars/eayushsingh?style=flat-square&label=Total%20Stars&color=24292f" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=eayushsingh&style=flat-square&label=Profile%20Views&color=24292f" />
+</p>
+
+</div>
+
+---
+
+## About
+
+I'm an **AI & Data Science engineer** focused on building production-oriented software and intelligent applications.
+
+My interests span **backend engineering, distributed systems, AI/ML, data platforms, and financial technology**. I enjoy working across the stack — from designing APIs and database systems to building user-facing products and deploying them to production.
+
+I'm particularly interested in the engineering problems behind modern FinTech:
+
+**payments · financial infrastructure · risk systems · data platforms · automation · AI**
+
+> **Long-term direction:** Build reliable, scalable technology for financial products and infrastructure.
+
+---
+
+## Engineering Focus
+
+| Area                    | What I'm Working On                                             |
+| ----------------------- | --------------------------------------------------------------- |
+| **Backend Engineering** | Java, Spring Boot, REST APIs, service architecture              |
+| **Full Stack**          | Next.js, React, TypeScript, modern web applications             |
+| **AI / ML**             | Machine learning, intelligent applications, data-driven systems |
+| **Databases**           | PostgreSQL, Supabase, Firebase, SQL                             |
+| **Infrastructure**      | Docker, Linux, Vercel, cloud deployment                         |
+| **System Design**       | Scalability, APIs, caching, distributed systems                 |
+| **FinTech**             | Financial infrastructure, investment technology, AI in finance  |
+
+---
+
+## Technical Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,sql" />
+</p>
+
+### Backend & APIs
+
+<p>
+<img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" />
+</p>
+
+`REST APIs` · `Authentication` · `API Design` · `Backend Architecture`
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind" />
+</p>
+
+### Databases & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,supabase,firebase,redis,docker,linux,vercel" />
+</p>
+
+### AI & Data
+
+`Machine Learning` · `Data Science` · `Data Visualization` · `AI Applications` · `Python`
+
+---
+
+## Selected Work
+
+### Ravi Capitals — Fractional Real Estate Platform
+
+A product concept focused on **fractional real-estate investment**, allowing users to explore investment opportunities through a digital platform.
+
+**Areas explored**
+
+* Fractional ownership architecture
+* Investment portfolio experience
+* Property data & analytics
+* Digital transaction workflows
+* Financial product UX
+
+**Focus:** FinTech · Investment Technology · Product Engineering
+
+---
+
+### Production Full-Stack Platforms
+
+Building modern web applications with a focus on:
+
+* Server-side rendering
+* Secure authentication
+* API architecture
+* Database design
+* Role-based access control
+* Performance optimization
+* Production deployment
+
+**Stack:** Next.js · TypeScript · PostgreSQL · Supabase · Java · Spring Boot
+
+---
+
+### AI & Data Applications
+
+Building applications that combine **machine learning, data processing and software engineering** to turn raw data into useful insights.
+
+**Focus:** ML · Data Analytics · AI Applications · Visualization
+
+---
+
+## Currently Learning
+
+```text
+System Design
+    ├── Scalability
+    ├── Distributed Systems
+    ├── Caching
+    ├── Message Queues
+    └── Database Architecture
+
+FinTech
+    ├── Payment Systems
+    ├── Financial APIs
+    ├── Investment Technology
+    ├── Risk & Data Systems
+    └── Financial Infrastructure
+
+Engineering
+    ├── Production Backend Development
+    ├── Cloud Architecture
+    ├── Observability
+    └── Security
+```
+
+---
+
+## GitHub Activity
 
 <p align="center">
-<a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/followers/eayushsingh?label=Followers&style=social" /></a>
-<a href="https://github.com/eayushsingh"><img src="https://img.shields.io/github/stars/eayushsingh?affiliations=OWNER%2CCOLLABORATOR&style=social" /></a>
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=eayushsingh&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true&count_private=true"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=eayushsingh&layout=compact&hide_border=true&theme=github_dark&langs_count=8"
+    height="170"
+  />
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=eayushsingh&label=Profile%20Views&color=blue&style=flat" alt="profile views"/>
+  <img
+    src="https://streak-stats.demolab.com/?user=eayushsingh&theme=github-dark-blue&hide_border=true"
+    width="70%"
+  />
 </p>
 
 ---
 
-# 🚀 About Me
+## Contribution Graph
 
-I’m a **software engineer and AI enthusiast** passionate about building scalable systems, intelligent applications, and innovative startups. I combine **software engineering, machine learning, and cloud technologies** to develop impactful digital products.
-
-🔹 **Focus Areas**
-
-- Full Stack Development  
-- Artificial Intelligence & Data Science  
-- Cloud Computing & Scalable Systems  
-- Startup Product Development  
-
-🔹 **Technical Expertise**
-
-- Python  
-- Java  
-- Spring Boot  
-- Machine Learning  
-- Data Visualization (Tableau)  
-- REST API Development  
-
-🔹 **Currently Learning**
-
-- Advanced System Design  
-- Cloud Native Architecture  
-- Distributed Systems  
-
-🔹 **Open To**
-
-- Open Source Collaboration  
-- Startup Projects  
-- Knowledge Sharing  
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=eayushsingh&theme=github-compact&hide_border=true&area=true"
+    width="95%"
+  />
+</p>
 
 ---
 
-# 🛠 Tech Stack
-
-### 👨‍💻 Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-F89820?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
-
-### 🌐 Frontend
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### ⚙️ Backend
-
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### ☁️ Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### 📊 Data & AI
-
-![Machine Learning](https://img.shields.io/badge/MachineLearning-FF6F00?style=for-the-badge)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-
----
-
-# 📊 GitHub Statistics
+## GitHub Snapshot
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=eayushsingh&show_icons=true&theme=tokyonight" height="180"/>
+<a href="https://github.com/eayushsingh?tab=repositories">
+<img src="https://img.shields.io/badge/Repositories-Live-24292f?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eayushsingh&layout=compact&theme=tokyonight" height="180"/>
+<a href="https://github.com/eayushsingh?tab=followers">
+<img src="https://img.shields.io/github/followers/eayushsingh?style=for-the-badge&label=Followers&color=24292f&logo=github" />
+</a>
 
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com/?user=eayushsingh&theme=tokyonight" />
-</p>
-
----
-
-# 🌟 Featured Projects
-
-### 🏢 Fractional Real Estate Investment Platform
-
-A digital platform enabling users to invest in **fractional ownership of real estate assets**.
-
-**Key Features**
-
-- 🏘 Fractional property investment  
-- 💰 Portfolio tracking  
-- 📊 Investment analytics dashboard  
-- 🔒 Secure transaction model  
-
-Tech Stack: Java, Spring Boot
-
----
-
-### 🌐 Digital Marketing Website – Vellix.site
-
-A **high-performance digital marketing website** designed to help businesses grow their online presence and generate leads.
-
-**Key Features**
-
-- 🚀 Modern and responsive UI for business websites  
-- 📈 SEO-optimized structure for better search ranking  
-- ⚡ Fast loading and performance optimized  
-- 💼 Built for companies looking to scale their online presence  
-
-Tech Stack: HTML, CSS, JavaScript
-
----
-
-### 🤖 AI Data Analytics Dashboard
-
-A machine learning project focused on **data insights and prediction**.
-
-**Key Features**
-
-- 📊 Interactive dashboards  
-- 🤖 ML models  
-- 📈 Business insights  
-- ⚡ Real-time analytics  
-
-Tech Stack: Python, Tableau
-
----
-
-# 🌍 Open Source Contributions
-
-I contribute to open-source by:
-
-✔ Fixing bugs  
-✔ Improving documentation  
-✔ Adding features  
-✔ Code optimization  
-
----
-
-# 🏆 Achievements
-
-✔ Solved **1000+ coding problems** on competitive programming platforms  
-✔ Built multiple **real-world projects**  
-✔ Experience in **AI, backend systems, and data science**  
-✔ Entrepreneurial experience building a **fractional real estate platform**
-
----
-
-# 🌐 Connect With Me
-<a href="https://github.com/eayushsingh">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<a href="https://github.com/eayushsingh?tab=stars">
+<img src="https://img.shields.io/github/stars/eayushsingh?style=for-the-badge&label=Stars&color=24292f&logo=github" />
 </a>
 
 </p>
 
 ---
 
-<p align="center">
-⭐ From <a href="https://github.com/eayushsingh">Ayush Singh</a> — Building the future with code.
+## What I Look For
+
+I'm interested in opportunities where I can work on **real engineering problems**, learn from strong engineers, and contribute to products operating at scale.
+
+**Especially interested in:**
+
+`FinTech` · `AI` · `Backend Engineering` · `Full Stack` · `Distributed Systems` · `Data`
+
+---
+
+## Connect
+
+<p>
+
+<a href="https://www.linkedin.com/in/ayush-singh-8b5418344">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://leetcode.com/u/eayushsingh/">
+<img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
+
+<a href="https://github.com/eayushsingh">
+<img src="https://img.shields.io/badge/GitHub-eayushsingh-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
 </p>
+
+---
+
+<div align="center">
+
+### Build. Learn. Ship. Scale.
+
+**AI · Software Engineering · FinTech**
+
+</div>
