@@ -1,42 +1,9 @@
 <div align="center">
 
-```text
-┌── ayushsingh ~ ───────────────────────────────────────────────────────────────────┐
-│ ● ● ●                                                                             │
-├───────────────────────────────┬───────────────────────────────────────────────────┤
-│          ;=+*+=++=+=;;;       │ ayushsingh @ github ● online                      │
-│          ;=++==++=++;::       │ ───────────────────────────────────────────────── │
-│         #%@%@@@@%++;:::       │ OS:              macOS / Linux                    │
-│         %%%@@@%@@*=::         │ Host:            Ayush Singh                      │
-│         @@@@@#+**+:           │ Location:        India 🇮🇳                          │
-│         %%@%+=*%*;            │ IDE:             VS Code                          │
-│         *++*=;=+;:            │ Role:            AI Engineer · Full-Stack Dev     │
-│         %++#*++**;            │                                                   │
-│         ++*%%%#**             │ Languages.Programming                             │
-│         ++**#@%=;             │ ───────────────────────────────────────────────── │
-│      =++**+*%%%#+=:           │ Python · Java · JavaScript                        │
-│   +++++++****###****          │ TypeScript · SQL                                  │
-│ =+++++++*+*+*+*******=        │                                                   │
-│ +****+++++*+********#*:   +   │ Languages.Framework                               │
-│ ******++++****+*****##+; ==   │ ───────────────────────────────────────────────── │
-│ ***##***********#*##%#*+=*    │ Next.js · React · Spring Boot                     │
-│ *####********+**######*=+=*+  │ FastAPI                                           │
-│ *#%%#*****#******##%##**#+*#  │                                                   │
-│ *#%%*#***#**+****##%#*###=    │ Data.Infrastructure                               │
-│ ##%%************#*##**#=      │ ───────────────────────────────────────────────── │
-│ ####**+*#********###*+**++#*  │ PostgreSQL · Supabase · Redis                     │
-│ *#****+***+*******##**##**%%  │ Docker                                            │
-│ *#*+**+#*********##%**###%%#  │                                                   │
-│ *##**+*#*********##%#***++**  │ Focus                                             │
-│                               │ ───────────────────────────────────────────────── │
-│                               │ FinTech · AI · Backend                            │
-│ ───────────────────────────── │ Distributed Systems · Product Engineering         │
-│ Contact                       │                                                   │
-│ ───────────────────────────── │ GitHub Stats                                      │
-│ GitHub:   eayushsingh         │ ───────────────────────────────────────────────── │
-│ LinkedIn: Ayush Singh         │ Repos:           ···························· 46  │
-│ LeetCode: eayushsingh         │ Stars:           ···························· 1   │
-│                               │ Followers:       ···························· 13  │
-│                               │ Commits/yr:      ···························· LIVE│
-│                               │ Contribs/yr:     ··························· LIVE█│
-└───────────────────────────────┴───────────────────────────────────────────────────┘
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./generated/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/profile-light.svg">
+  <img src="./generated/profile-dark.svg" alt="Ayush Singh — Terminal Identity" width="100%">
+</picture>
+
+</div>
