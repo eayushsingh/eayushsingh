@@ -1,100 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 670" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="100%" height="100%">
   <defs>
     <style>
       .term-text {
         font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', 'SF Mono', Menlo, Monaco, Consolas, monospace;
-        font-size: 12.5px;
+        font-size: 12px;
         fill: #24292f;
       }
       .title {
         font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
-        font-size: 12.5px;
+        font-size: 12px;
         font-weight: 500;
         fill: #57606a;
       }
-      .accent-blue { fill: #0969da; font-weight: 600; }
+      .accent-blue { fill: #0969da; font-weight: 500; }
       .accent-green { fill: #1a7f37; font-weight: 600; }
-      .accent-purple { fill: #8250df; font-weight: 600; }
-      .accent-yellow { fill: #9a6700; font-weight: 600; }
-      .accent-cyan { fill: #0550ae; font-weight: 600; }
-      .text-dim { fill: #8c959f; }
+      .accent-section { fill: #0969da; font-weight: 600; }
+      .text-dim { fill: #656d76; }
       .text-leader { fill: #d0d7de; }
-      .text-bright { fill: #0969da; font-weight: 500; }
+      .text-bright { fill: #1f2328; }
       .ascii-art {
         font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
         font-size: 10px;
-        line-height: 12px;
+        line-height: 13px;
         fill: #24292f;
         white-space: pre;
       }
       .divider { stroke: #d0d7de; stroke-width: 1; }
-      .cursor { fill: #0969da; animation: blink 1s step-end infinite; }
+      .subtle-divider { stroke: #eaeef2; stroke-width: 1; }
+      .cursor { fill: #1a7f37; animation: blink 1s step-end infinite; }
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
     </style>
   </defs>
 
-  <!-- Window Outer Frame -->
-  <rect x="1" y="1" width="878" height="668" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2" />
+  <!-- Terminal Window Frame -->
+  <rect x="1" y="1" width="858" height="578" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
 
-  <!-- Window Header Bar -->
-  <rect x="1" y="1" width="878" height="36" rx="8" fill="#f6f8fa" />
-  <rect x="1" y="24" width="878" height="13" fill="#f6f8fa" />
-  <line x1="1" y1="37" x2="879" y2="37" class="divider" />
+  <!-- Minimal Header Bar -->
+  <rect x="1" y="1" width="858" height="30" rx="6" fill="#f6f8fa" />
+  <rect x="1" y="19" width="858" height="12" fill="#f6f8fa" />
+  <line x1="1" y1="31" x2="859" y2="31" class="divider" />
 
-  <!-- Window Traffic Lights -->
-  <circle cx="20" cy="19" r="5" fill="#ff5f56" />
-  <circle cx="36" cy="19" r="5" fill="#ffbd2e" />
-  <circle cx="52" cy="19" r="5" fill="#27c93f" />
+  <!-- Subtle Traffic Lights -->
+  <circle cx="18" cy="16" r="3.5" fill="#ff5f56" />
+  <circle cx="30" cy="16" r="3.5" fill="#ffbd2e" />
+  <circle cx="42" cy="16" r="3.5" fill="#27c93f" />
 
   <!-- Terminal Title -->
-  <text x="440" y="23" text-anchor="middle" class="title">ayushsingh ~</text>
+  <text x="430" y="20" text-anchor="middle" class="title">ayushsingh ~</text>
 
   <!-- Vertical Splitter -->
-  <line x1="350" y1="37" x2="350" y2="669" class="divider" />
+  <line x1="335" y1="31" x2="335" y2="579" class="divider" />
 
-  <!-- ================= LEFT: ASCII PORTRAIT & CONTACT ================= -->
-  <g transform="translate(16, 52)">
-    <text class="ascii-art" xml:space="preserve">      <tspan x="4" y="12">                +=--+=+=-**#%#=***              </tspan>
-      <tspan x="4" y="24.5">                ~~++++===*%*-+~--#              </tspan>
-      <tspan x="4" y="37">                ~~~~~~+-*#-=-=+=#*              </tspan>
-      <tspan x="4" y="49.5">               ~~~~~+=-=*=#%$#-*$$##*           </tspan>
-      <tspan x="4" y="62">               ~~~*@@@@@@@@@@@@@@@@$%           </tspan>
-      <tspan x="4" y="74.5">               ;=$@@@@@@@@@@@@@@@@@@$           </tspan>
-      <tspan x="4" y="87">               -@@@@@@@@@@@@@@@@@@@@@           </tspan>
-      <tspan x="4" y="99.5">               @@@@@@@@@@@@@@@@@@@@@@           </tspan>
-      <tspan x="4" y="112">               @@@@@@@@@@@@@@$#*%%##%           </tspan>
-      <tspan x="4" y="124.5">               @@@@@@@@@@@@@%-=-#%%##           </tspan>
-      <tspan x="4" y="137">               @@@@@$@@@@@*===*%$@$#$           </tspan>
-      <tspan x="4" y="149.5">               @@@@-=%$@@@-=+=-*%$* -           </tspan>
-      <tspan x="4" y="162">               +@@@****=%%-=+~+=---             </tspan>
-      <tspan x="4" y="174.5">               :+@@@***-#%*-===--**-*           </tspan>
-      <tspan x="4" y="187">               ::-@@#*#*%%%#****#%#%@           </tspan>
-      <tspan x="4" y="199.5">               :::#%**#%$$$$%%%##$%#*           </tspan>
-      <tspan x="4" y="212">               :::+#**#%$@@@@@@%%##%=           </tspan>
-      <tspan x="4" y="224.5">               ::--***##%%$@@@@@@@@%;           </tspan>
-      <tspan x="4" y="237">               :-$*--**####$@@@@~::             </tspan>
-      <tspan x="4" y="249.5">            ~=***##*#****#%$@@@@$%*=~           </tspan>
-      <tspan x="4" y="262">         ~-#****#-%####*#%$@@@@@$%%%%%%*+       </tspan>
-      <tspan x="4" y="274.5">      +-###-#-##**#*%$$%####$@@@$%#%%%*$#*;     </tspan>
-      <tspan x="4" y="287">  ;+**#*#-##-#-*#--##*%#$%##%%%$#%%##%%####     </tspan>
-      <tspan x="4" y="299.5">~=#-#*##-#-*#=#-*##-##-%#%%-##*%#####%##*%#*    </tspan>
-      <tspan x="4" y="312">*#*#+%**%=#*-#-#*#-#**#*%-%-*#%*#%*#%##%*$#%    </tspan>
-      <tspan x="4" y="324.5">-#*##-%###*#**-#*-#-#*%-%#%#%-%####%*###%$#%+   </tspan>
-      <tspan x="4" y="337">#-#-%%#%##-#*-#=#-###*%*##%*%#%*%#*#%*#%%$$%#*  </tspan>
-      <tspan x="4" y="349.5">###%#%%#%=#-#-#*#*#**#-%#%***########%%%$%$$***-</tspan>
-      <tspan x="4" y="362">-%*%#%$##%$#*%##*#-#-##%-%#%#**#%%#%##%%@$$$##*=</tspan>
-      <tspan x="4" y="374.5">*%*%*%$%%$%%*#*#-#*###*%#%%%*##%#%#%%#%$@$$$%*%-</tspan>
-      <tspan x="4" y="387">#%%$%$$$$$#%#%#%#%*#-%*%%%#$*#%%%%%$#$$$@$$$%%%#</tspan>
-      <tspan x="4" y="399.5">-%#$$$%$@%%%%%#%-%*%%%#%%#%%**-$%%%$%%$$@%$%%*--</tspan>
+  <!-- ================= LEFT: FULL ASCII PORTRAIT & CONTACT ================= -->
+  <g transform="translate(14, 40)">
+    <text class="ascii-art" xml:space="preserve">      <tspan x="4" y="12">          ;=+*+=++=+=;;;                </tspan>
+      <tspan x="4" y="25.5">          ;=++==++=++;::                </tspan>
+      <tspan x="4" y="39">         #%@%@@@@%++;:::                </tspan>
+      <tspan x="4" y="52.5">         %%%@@@%@@*=::                  </tspan>
+      <tspan x="4" y="66">         @@@@@#+**+:                    </tspan>
+      <tspan x="4" y="79.5">         %%@%+=*%*;                     </tspan>
+      <tspan x="4" y="93">         *++*=;=+;:                     </tspan>
+      <tspan x="4" y="106.5">         %++#*++**;.....                </tspan>
+      <tspan x="4" y="120">         ++*%%%#** .                    </tspan>
+      <tspan x="4" y="133.5">         ++**#@%=;                      </tspan>
+      <tspan x="4" y="147">      =++**+*%%%#+=:                    </tspan>
+      <tspan x="4" y="160.5">   +++++++****###****                   </tspan>
+      <tspan x="4" y="174">=+++++++*+*+*+*******=..                </tspan>
+      <tspan x="4" y="187.5">+****+++++*+********#*:.   +            </tspan>
+      <tspan x="4" y="201">******++++****+*****##+;  ==            </tspan>
+      <tspan x="4" y="214.5">***##***********#*##%#*+  =*            </tspan>
+      <tspan x="4" y="228">*####********+**######*=+=*+*#*         </tspan>
+      <tspan x="4" y="241.5">*#%%#*****#******##%##**#+*#**=         </tspan>
+      <tspan x="4" y="255">*#%%*#***#**+****##%#*###=  +*+         </tspan>
+      <tspan x="4" y="268.5">##%%************#*##**#= ++=**=         </tspan>
+      <tspan x="4" y="282">####**+*#********###*+**++#*+*+         </tspan>
+      <tspan x="4" y="295.5">*#****+***+*******##**##**%%#*+         </tspan>
+      <tspan x="4" y="309">*#*+**+#*********##%**###%%#%%#         </tspan>
+      <tspan x="4" y="322.5">*##**+*#*********##%#***++**+++         </tspan>
     </text>
   </g>
 
   <!-- Left Separator -->
-  <line x1="18" y1="465" x2="332" y2="465" class="divider" />
+  <line x1="18" y1="390" x2="318" y2="390" class="subtle-divider" />
 
-  <!-- Contact Matrix -->
-  <g transform="translate(24, 482)" class="term-text">
-    <text x="0" y="14" class="accent-cyan">Contact</text>
+  <!-- Contact Block -->
+  <g transform="translate(24, 406)" class="term-text">
+    <text x="0" y="14" class="accent-section">Contact</text>
     <text x="0" y="26" class="text-dim">──────────────────────────</text>
     <text x="0" y="48" class="text-dim">GitHub:</text>
     <text x="75" y="48" class="text-bright">eayushsingh</text>
@@ -105,72 +96,73 @@
   </g>
 
   <!-- ================= RIGHT: NEOFETCH SPECS & STATS ================= -->
-  <g transform="translate(375, 52)" class="term-text">
+  <g transform="translate(360, 40)" class="term-text">
     <!-- Identity Header -->
-    <text x="0" y="18" class="accent-green" font-size="15">ayushsingh</text>
-    <text x="105" y="18" class="text-dim" font-size="12">@ github</text>
-    <circle cx="172" cy="14" r="3.5" fill="#1a7f37" />
-    <text x="180" y="18" fill="#1a7f37" font-size="11">online</text>
-    <text x="0" y="32" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="16" class="accent-green" font-size="14" font-weight="600">ayushsingh</text>
+    <text x="100" y="16" class="text-dim" font-size="11">@ github</text>
+    <circle cx="165" cy="12" r="3" fill="#1a7f37" />
+    <text x="173" y="16" fill="#1a7f37" font-size="10">online</text>
+    <text x="0" y="28" class="text-dim">─────────────────────────────────────────────────</text>
 
     <!-- System Info -->
-    <text x="0" y="54" class="accent-blue">OS:</text>
-    <text x="90" y="54" class="text-bright">macOS / Linux</text>
-    <text x="0" y="74" class="accent-blue">Host:</text>
-    <text x="90" y="74" class="text-bright">Ayush Singh</text>
-    <text x="0" y="94" class="accent-blue">Location:</text>
-    <text x="90" y="94" class="text-bright">India 🇮🇳</text>
-    <text x="0" y="114" class="accent-blue">IDE:</text>
-    <text x="90" y="114" class="text-bright">VS Code</text>
-    <text x="0" y="134" class="accent-blue">Role:</text>
-    <text x="90" y="134" class="text-bright">AI Engineer · Full-Stack Developer</text>
+    <text x="0" y="48" class="accent-blue">OS:</text>
+    <text x="90" y="48" class="text-bright">macOS / Linux</text>
+    <text x="0" y="66" class="accent-blue">Host:</text>
+    <text x="90" y="66" class="text-bright">Ayush Singh</text>
+    <text x="0" y="84" class="accent-blue">Location:</text>
+    <text x="90" y="84" class="text-bright">India 🇮🇳</text>
+    <text x="0" y="102" class="accent-blue">IDE:</text>
+    <text x="90" y="102" class="text-bright">VS Code</text>
+    <text x="0" y="120" class="accent-blue">Role:</text>
+    <text x="90" y="120" class="text-bright">AI Engineer · Full-Stack Developer</text>
 
     <!-- Languages.Programming -->
-    <text x="0" y="162" class="accent-purple">Languages.Programming</text>
-    <text x="0" y="176" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="194" class="text-bright">Python · Java · JavaScript</text>
-    <text x="0" y="212" class="text-bright">TypeScript · SQL</text>
+    <text x="0" y="146" class="accent-section">Languages.Programming</text>
+    <text x="0" y="158" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="174" class="text-bright">Python · Java · JavaScript</text>
+    <text x="0" y="190" class="text-bright">TypeScript · SQL</text>
 
     <!-- Languages.Framework -->
-    <text x="0" y="240" class="accent-purple">Languages.Framework</text>
-    <text x="0" y="254" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="272" class="text-bright">Next.js · React · Spring Boot</text>
-    <text x="0" y="290" class="text-bright">FastAPI</text>
+    <text x="0" y="214" class="accent-section">Languages.Framework</text>
+    <text x="0" y="226" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="242" class="text-bright">Next.js · React · Spring Boot</text>
+    <text x="0" y="258" class="text-bright">FastAPI</text>
 
     <!-- Data.Infrastructure -->
-    <text x="0" y="318" class="accent-purple">Data.Infrastructure</text>
-    <text x="0" y="332" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="350" class="text-bright">PostgreSQL · Supabase · Redis · Docker</text>
+    <text x="0" y="282" class="accent-section">Data.Infrastructure</text>
+    <text x="0" y="294" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="310" class="text-bright">PostgreSQL · Supabase · Redis</text>
+    <text x="0" y="326" class="text-bright">Docker</text>
 
     <!-- Focus -->
-    <text x="0" y="378" class="accent-yellow">Focus</text>
-    <text x="0" y="392" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="410" class="text-bright">FinTech · AI · Backend</text>
-    <text x="0" y="428" class="text-bright">Distributed Systems · Product Engineering</text>
+    <text x="0" y="350" class="accent-section">Focus</text>
+    <text x="0" y="362" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="378" class="text-bright">FinTech · AI · Backend</text>
+    <text x="0" y="394" class="text-bright">Distributed Systems</text>
 
     <!-- GitHub Stats -->
-    <text x="0" y="456" class="accent-cyan">GitHub Stats</text>
-    <text x="0" y="470" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="418" class="accent-section">GitHub Stats</text>
+    <text x="0" y="430" class="text-dim">─────────────────────────────────────────────────</text>
 
-    <text x="0" y="490" class="text-dim">Repos:</text>
-    <text x="110" y="490" class="text-leader">································</text>
-    <text x="430" y="490" class="accent-green">45</text>
+    <text x="0" y="450" class="text-dim">Repos:</text>
+    <text x="110" y="450" class="text-leader">································</text>
+    <text x="430" y="450" class="accent-green">45</text>
 
-    <text x="0" y="510" class="text-dim">Stars:</text>
-    <text x="110" y="510" class="text-leader">································</text>
-    <text x="430" y="510" class="accent-green">1</text>
+    <text x="0" y="468" class="text-dim">Stars:</text>
+    <text x="110" y="468" class="text-leader">································</text>
+    <text x="430" y="468" class="accent-green">1</text>
 
-    <text x="0" y="530" class="text-dim">Followers:</text>
-    <text x="110" y="530" class="text-leader">································</text>
-    <text x="430" y="530" class="accent-green">13</text>
+    <text x="0" y="486" class="text-dim">Followers:</text>
+    <text x="110" y="486" class="text-leader">································</text>
+    <text x="430" y="486" class="accent-green">13</text>
 
-    <text x="0" y="550" class="text-dim">Commits/yr:</text>
-    <text x="110" y="550" class="text-leader">································</text>
-    <text x="430" y="550" class="accent-green">LIVE</text>
+    <text x="0" y="504" class="text-dim">Commits/yr:</text>
+    <text x="110" y="504" class="text-leader">································</text>
+    <text x="430" y="504" class="accent-green">LIVE</text>
 
-    <text x="0" y="570" class="text-dim">Contribs/yr:</text>
-    <text x="110" y="570" class="text-leader">································</text>
-    <text x="430" y="570" class="accent-green">LIVE</text>
-    <rect x="472" y="560" width="7" height="13" class="cursor" />
+    <text x="0" y="522" class="text-dim">Contribs/yr:</text>
+    <text x="110" y="522" class="text-leader">································</text>
+    <text x="430" y="522" class="accent-green">LIVE</text>
+    <rect x="472" y="512" width="6.5" height="12" class="cursor" />
   </g>
 </svg>
