@@ -23,8 +23,8 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
     c_section = "#79c0ff" if is_dark else "#0969da"
     c_ascii = "#c9d1d9" if is_dark else "#24292f"
     
-    w = 860
-    h = 920
+    w = 840
+    h = 760
     split_x = 340
     right_x = 360
     
@@ -52,7 +52,7 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
         "      .ascii-art {",
         "        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;",
         "        font-size: 5.8px;",
-        "        line-height: 10.4px;",
+        "        line-height: 10.2px;",
         f"        fill: {c_ascii};",
         "        white-space: pre;",
         "      }",
@@ -90,7 +90,7 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
     # Render ASCII lines
     for i, line in enumerate(ascii_lines):
         escaped_line = html.escape(line)
-        y_pos = 12 + (i * 10.4)
+        y_pos = 12 + (i * 10.2)
         svg_parts.append(f'      <tspan x="2" y="{y_pos}">{escaped_line}</tspan>')
 
     svg_parts.extend([
@@ -98,10 +98,10 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
         '  </g>',
         '',
         '  <!-- Left Separator -->',
-        f'  <line x1="16" y1="740" x2="{split_x-16}" y2="740" class="subtle-divider" />',
+        f'  <line x1="16" y1="590" x2="{split_x-16}" y2="590" class="subtle-divider" />',
         '',
         '  <!-- Contact Block -->',
-        f'  <g transform="translate(20, 756)" class="term-text">',
+        f'  <g transform="translate(20, 606)" class="term-text">',
         f'    <text x="0" y="14" class="accent-section">Contact</text>',
         f'    <text x="0" y="26" class="text-dim">──────────────────────</text>'
     ])

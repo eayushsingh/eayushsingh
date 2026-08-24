@@ -51,7 +51,11 @@ def main():
     if not ascii_lines:
         print("Fallback to image processing...")
         ascii_lines = get_ascii_portrait(photo_path, out_w=48, out_h=32)
+    
     print(f"Generated {len(ascii_lines)} lines of ASCII portrait.")
+    if len(ascii_lines) > 50:
+        ascii_lines = ascii_lines[:50]
+        print(f"Concised ASCII portrait to {len(ascii_lines)} lines.")
 
     print("--- [2/3] Fetching Live GitHub Metrics ---")
     profile = get_profile_data()
