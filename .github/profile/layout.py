@@ -2,22 +2,22 @@ def get_profile_data():
     return {
         "username": "ayushsingh",
         "github_login": "eayushsingh",
-        "role_title": "Chief Technology Officer / AI Architect",
+        "role_title": "Quantitative Developer / Software Engineer",
         "system": [
-            ("Title:", "Chief Technology Officer"),
-            ("Domain:", "FinTech & Autonomous Systems"),
-            ("Loc:", "India 🇮🇳"),
+            ("Role:", "Quantitative Developer / Software Engineer"),
+            ("Domain:", "Quantitative Finance & AI Systems"),
+            ("Focus:", "Low-Latency Execution & High-Scale Systems"),
         ],
-        "architecture": [
-            "High-Throughput Arbitrage Engines",
-            "L2/L3 Orderbook Predictive Analytics",
-            "Distributed Event-Driven Abstractions",
-            "Graph-Based Settlement Systems",
+        "engineering": [
+            "L2/L3 HFT Orderbook Predictive Models",
+            "Cross-Market Liquidity Scanning & Arbitrage",
+            "Low-Latency Execution Pipelines",
+            "Graph-Based Debt Settlement Algorithms",
         ],
-        "ai_systems": [
-            "Autonomous Voice Agents & Function Calling",
-            "Intelligent Pipeline Orchestration",
-            "Collaborative Real-Time State Sync",
+        "ai_infrastructure": [
+            "Autonomous Voice Agents & Agentic Workflows",
+            "Real-Time Tool-Calling & LLM Orchestration",
+            "Concurrent Collaborative State Sync",
         ],
         "contact": [
             ("GitHub:", "eayushsingh"),

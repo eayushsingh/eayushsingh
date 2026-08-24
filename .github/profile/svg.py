@@ -23,10 +23,10 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
     c_section = "#79c0ff" if is_dark else "#0969da"
     c_ascii = "#c9d1d9" if is_dark else "#24292f"
     
-    w = 800
-    h = 860
-    split_x = 310
-    right_x = 330
+    w = 860
+    h = 920
+    split_x = 340
+    right_x = 360
     
     svg_parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="100%" height="auto">',
@@ -51,8 +51,8 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
         f"      .text-bright {{ fill: {c_text_bright}; }}",
         "      .ascii-art {",
         "        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;",
-        "        font-size: 5.2px;",
-        "        line-height: 9.8px;",
+        "        font-size: 5.8px;",
+        "        line-height: 10.4px;",
         f"        fill: {c_ascii};",
         "        white-space: pre;",
         "      }",
@@ -90,7 +90,7 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
     # Render ASCII lines
     for i, line in enumerate(ascii_lines):
         escaped_line = html.escape(line)
-        y_pos = 12 + (i * 9.8)
+        y_pos = 12 + (i * 10.4)
         svg_parts.append(f'      <tspan x="2" y="{y_pos}">{escaped_line}</tspan>')
 
     svg_parts.extend([
@@ -98,10 +98,10 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
         '  </g>',
         '',
         '  <!-- Left Separator -->',
-        f'  <line x1="16" y1="690" x2="{split_x-16}" y2="690" class="subtle-divider" />',
+        f'  <line x1="16" y1="740" x2="{split_x-16}" y2="740" class="subtle-divider" />',
         '',
         '  <!-- Contact Block -->',
-        '  <g transform="translate(20, 706)" class="term-text">',
+        f'  <g transform="translate(20, 756)" class="term-text">',
         f'    <text x="0" y="14" class="accent-section">Contact</text>',
         f'    <text x="0" y="26" class="text-dim">──────────────────────</text>'
     ])
@@ -132,23 +132,23 @@ def generate_svg(profile, ascii_lines, stats, theme="dark"):
         svg_parts.append(f'    <text x="85" y="{cur_y}" class="text-bright">{html.escape(v)}</text>')
         cur_y += 18
 
-    # Core Strategy & Architecture
+    # Quantitative & Systems Engineering
     cur_y += 8
-    svg_parts.append(f'    <text x="0" y="{cur_y}" class="accent-section">Core Strategy &amp; Architecture</text>')
+    svg_parts.append(f'    <text x="0" y="{cur_y}" class="accent-section">Quantitative &amp; Systems Engineering</text>')
     cur_y += 12
     svg_parts.append(f'    <text x="0" y="{cur_y}" class="text-dim">─────────────────────────────────────────────────</text>')
     cur_y += 18
-    for item in profile["architecture"]:
+    for item in profile["engineering"]:
         svg_parts.append(f'    <text x="0" y="{cur_y}" class="text-bright">• {html.escape(item)}</text>')
         cur_y += 18
 
-    # AI Systems & Infrastructure
+    # Agentic AI & Systems Infrastructure
     cur_y += 8
-    svg_parts.append(f'    <text x="0" y="{cur_y}" class="accent-section">AI Systems &amp; Infrastructure</text>')
+    svg_parts.append(f'    <text x="0" y="{cur_y}" class="accent-section">Agentic AI &amp; Infrastructure</text>')
     cur_y += 12
     svg_parts.append(f'    <text x="0" y="{cur_y}" class="text-dim">─────────────────────────────────────────────────</text>')
     cur_y += 18
-    for item in profile["ai_systems"]:
+    for item in profile["ai_infrastructure"]:
         svg_parts.append(f'    <text x="0" y="{cur_y}" class="text-bright">• {html.escape(item)}</text>')
         cur_y += 18
 
