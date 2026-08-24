@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Temporary scratch images
+assets/*_test*.jpg
+assets/cropped*.jpg
+assets/cropped*.bmp
+assets/subject_crop.*

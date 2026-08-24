@@ -1,57 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Profile Preview - Ayush Singh</title>
-  <style>
-    body {
-      background-color: #0d1117;
-      color: #c9d1d9;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-      line-height: 1.5;
-      padding: 40px 20px;
-      margin: 0;
-    }
-    .container {
-      max-width: 880px;
-      margin: 0 auto;
-      background-color: #0d1117;
-      border: 1px solid #30363d;
-      border-radius: 6px;
-      padding: 32px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    hr {
-      border: 0;
-      border-top: 1px solid #21262d;
-      margin: 24px 0;
-    }
-    pre {
-      background-color: #161b22;
-      border-radius: 6px;
-      padding: 16px;
-      overflow: auto;
-      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
-      font-size: 13px;
-      border: 1px solid #30363d;
-      color: #79c0ff;
-    }
-    h3 {
-      color: #58a6ff;
-      border-bottom: 1px solid #21262d;
-      padding-bottom: 8px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Preview</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div style="text-align: center;">
-      <img src="./assets/terminal.svg" alt="Terminal Card" style="width: 100%; border-radius: 8px;" />
+    <div class="container">
+        <!-- Render the generated SVG -->
+        <img src="generated/profile-dark.svg" alt="Profile Preview" style="width:100%; height:auto;">
     </div>
-  </div>
 </body>
 </html>

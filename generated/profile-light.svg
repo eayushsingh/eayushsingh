@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" width="100%" height="auto">
   <defs>
     <style>
       .term-text {
         font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', 'SF Mono', Menlo, Monaco, Consolas, monospace;
-        font-size: 12px;
+        font-size: 11.5px;
         fill: #24292f;
       }
       .title {
         font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
-        font-size: 12px;
+        font-size: 11.5px;
         font-weight: 500;
         fill: #57606a;
       }
@@ -20,8 +20,8 @@
       .text-bright { fill: #1f2328; }
       .ascii-art {
         font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, monospace;
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 5.2px;
+        line-height: 9.8px;
         fill: #24292f;
         white-space: pre;
       }
@@ -33,136 +33,150 @@
   </defs>
 
   <!-- Terminal Window Frame -->
-  <rect x="1" y="1" width="858" height="578" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+  <rect x="1" y="1" width="798" height="858" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
 
   <!-- Minimal Header Bar -->
-  <rect x="1" y="1" width="858" height="30" rx="6" fill="#f6f8fa" />
-  <rect x="1" y="19" width="858" height="12" fill="#f6f8fa" />
-  <line x1="1" y1="31" x2="859" y2="31" class="divider" />
+  <rect x="1" y="1" width="798" height="30" rx="6" fill="#f6f8fa" />
+  <rect x="1" y="19" width="798" height="12" fill="#f6f8fa" />
+  <line x1="1" y1="31" x2="799" y2="31" class="divider" />
 
   <!-- Subtle Traffic Lights -->
-  <circle cx="18" cy="16" r="3.5" fill="#ff5f56" />
-  <circle cx="30" cy="16" r="3.5" fill="#ffbd2e" />
-  <circle cx="42" cy="16" r="3.5" fill="#27c93f" />
+  <circle cx="16" cy="16" r="3.5" fill="#ff5f56" />
+  <circle cx="28" cy="16" r="3.5" fill="#ffbd2e" />
+  <circle cx="40" cy="16" r="3.5" fill="#27c93f" />
 
   <!-- Terminal Title -->
-  <text x="430" y="20" text-anchor="middle" class="title">ayushsingh ~</text>
+  <text x="400" y="20" text-anchor="middle" class="title">ayushsingh ~</text>
 
   <!-- Vertical Splitter -->
-  <line x1="335" y1="31" x2="335" y2="579" class="divider" />
+  <line x1="310" y1="31" x2="310" y2="859" class="divider" />
 
   <!-- ================= LEFT: FULL ASCII PORTRAIT & CONTACT ================= -->
-  <g transform="translate(14, 40)">
-    <text class="ascii-art" xml:space="preserve">      <tspan x="4" y="12">          ;=+*+=++=+=;;;                </tspan>
-      <tspan x="4" y="25.5">          ;=++==++=++;::                </tspan>
-      <tspan x="4" y="39">         #%@%@@@@%++;:::                </tspan>
-      <tspan x="4" y="52.5">         %%%@@@%@@*=::                  </tspan>
-      <tspan x="4" y="66">         @@@@@#+**+:                    </tspan>
-      <tspan x="4" y="79.5">         %%@%+=*%*;                     </tspan>
-      <tspan x="4" y="93">         *++*=;=+;:                     </tspan>
-      <tspan x="4" y="106.5">         %++#*++**;.....                </tspan>
-      <tspan x="4" y="120">         ++*%%%#** .                    </tspan>
-      <tspan x="4" y="133.5">         ++**#@%=;                      </tspan>
-      <tspan x="4" y="147">      =++**+*%%%#+=:                    </tspan>
-      <tspan x="4" y="160.5">   +++++++****###****                   </tspan>
-      <tspan x="4" y="174">=+++++++*+*+*+*******=..                </tspan>
-      <tspan x="4" y="187.5">+****+++++*+********#*:.   +            </tspan>
-      <tspan x="4" y="201">******++++****+*****##+;  ==            </tspan>
-      <tspan x="4" y="214.5">***##***********#*##%#*+  =*            </tspan>
-      <tspan x="4" y="228">*####********+**######*=+=*+*#*         </tspan>
-      <tspan x="4" y="241.5">*#%%#*****#******##%##**#+*#**=         </tspan>
-      <tspan x="4" y="255">*#%%*#***#**+****##%#*###=  +*+         </tspan>
-      <tspan x="4" y="268.5">##%%************#*##**#= ++=**=         </tspan>
-      <tspan x="4" y="282">####**+*#********###*+**++#*+*+         </tspan>
-      <tspan x="4" y="295.5">*#****+***+*******##**##**%%#*+         </tspan>
-      <tspan x="4" y="309">*#*+**+#*********##%**###%%#%%#         </tspan>
-      <tspan x="4" y="322.5">*##**+*#*********##%#***++**+++         </tspan>
+  <g transform="translate(10, 40)">
+    <text class="ascii-art" xml:space="preserve">
+      <tspan x="2" y="12.0">*=+=#+*=-:==-:--%+.=-=-+=-----------------=+=%+*++*-::=+=-=+=++-:-*+*#=+=-----------------</tspan>
+      <tspan x="2" y="21.8">#--::=--+--=*+-+#=+===+-==:------------===:==*+-:=::---+=+###*----**+*-++==---------------</tspan>
+      <tspan x="2" y="31.6">*=++=:=*++++*=++#=-:+--::---------------===**+======--:=%:=-=-*+::=#=*===*+::-------------</tspan>
+      <tspan x="2" y="41.400000000000006">.%=*==+=#-=+--=*%.:-=*:-------------:::::-==-.=*++=::-:+#=+==+--==*+#=:-+*+=:-------------</tspan>
+      <tspan x="2" y="51.2">:+--**-.:::.:+*+#.--::::--------.:==+*##*+*=+##*#@@%*++##%@%*#*++#+#*-.+*+--:---:-::::::::</tspan>
+      <tspan x="2" y="61.0">=-+-*.-::::=+**+#:-=--:--:----:-+#%@@@@@@@@@@@@@@@@@%@@@@@@@*+##=*%*===**-::-::::-::::::::</tspan>
+      <tspan x="2" y="70.80000000000001">=+*#+-:..*-*#=*+==++=-:::::-:.+%%%%%@@@@%@@@%#%@%%%@@@@@@@@@%%%%+.++==+-:-::::::::::::::::</tspan>
+      <tspan x="2" y="80.60000000000001">+*#==++=+*+-==-+#::=+=-:::-.-%%%@#*%%%@@@@@@#@@%#%@%%%%@@@@@@@@%+=-=-==:::::::::::::::::::</tspan>
+      <tspan x="2" y="90.4">.--:*%#+#.-+==+==:-:--::--.+@@@%%%%%@@@%%#%@@@@%%@@#@%%@@@@@@@@@%===*+*:::::::::::::::::::</tspan>
+      <tspan x="2" y="100.2">::.::#+---.+=:-:.::::::-:.*@@%%%%%%%%%%@%%%@@@@@@%@@@@%@@%%@@@@@@-#+*=::::::::::::::::::::</tspan>
+      <tspan x="2" y="110.0">::=#=+-::::.:::::::::::::.@@@@@@@@@@%@@@%@@@@@@@@@@@%#%%@@@@@%#@@#=*=::::::::::::.::::::::</tspan>
+      <tspan x="2" y="119.80000000000001">=%==..:::::::::::::::::::.@@@@@@@@@@%%@@@@@@@@@@@@%##***%@%#***####-.:::::::::::::::::.:.:</tspan>
+      <tspan x="2" y="129.60000000000002">==:.::::::::::::::::::::.-@@@@@@@@@@@@@@@@@@@@@@@@@*-------=-=+*+=:.:::::::::.::::.:::::::</tspan>
+      <tspan x="2" y="139.4">:::::::::::.:::..::::::: #@@@@@@@@@@@@@@@@@@@@@@%*+:----+***++==*.::::::::::.:::..:..:.:..</tspan>
+      <tspan x="2" y="149.20000000000002">:::.:.::::.::::::::::.::.%@@@@@@@@@@@@@@@@@@@%=----=-=+*##%@@#=*%.::::.:.:.:::::....:.....</tspan>
+      <tspan x="2" y="159.0">.::.::::...:..::.:::.:.:.=@@@@@@@%*==*#@@@@%@#:-----=##+=*@%+=-@=.::::::::..:.:.:.........</tspan>
+      <tspan x="2" y="168.8">.:..::.:::...::.::.:::..:-@@@@@@@=-.=*:%@%@%@+:-----===**@@*--:+=.:.:.:..:..:.......:.....</tspan>
+      <tspan x="2" y="178.60000000000002">:..:.:.:..:.:..:...:.:.:.:.@@@@@@-:=#**-=+@@@=------:--=+*=----:=:..:.:........:........:.</tspan>
+      <tspan x="2" y="188.4">...........:.....:...:..:..=@@@@@%:-=-*==:+**--------------=----:--.......................</tspan>
+      <tspan x="2" y="198.20000000000002">........................:.. :@@@@@#=--=+=-+*=+=----==-=====++-:-==+.......................</tspan>
+      <tspan x="2" y="208.0">.:..........:............... =@@@@#+++=*=-+%**+=-===-====++--+***-........................</tspan>
+      <tspan x="2" y="217.8">...............:..........:.: =@@@@*-==*+-**#%*++=-=====+++*=+#%# ........................</tspan>
+      <tspan x="2" y="227.60000000000002">.............................. +@@*=====+**%*#%**+**=+++=*@%+*+#= .............. ....... .</tspan>
+      <tspan x="2" y="237.4">.................:............. +@=-====*%%@%%##%%#%#****#+=****:............... . .. ....</tspan>
+      <tspan x="2" y="247.20000000000002">:.............................. -#=-====+#%@@@@%%@%%@%***++=**%# ................. .......</tspan>
+      <tspan x="2" y="257.0">. ........................... . =+======+**##%@@@@@@@@%%#++===*# ........... ............ </tspan>
+      <tspan x="2" y="266.8">.............................-*#========+++*#*#%@@@@@@@@@@@@@%#- .... .. .................</tspan>
+      <tspan x="2" y="276.6">............ ............ . :*@*:=======++==+++##%@@%@@*:---:.  ...... ... ...... .  ... .</tspan>
+      <tspan x="2" y="286.40000000000003">......   ............  .:-:.#++++==-======+++++#*%@@%@@%+-.      ... ...... . .. .. .. ...</tspan>
+      <tspan x="2" y="296.20000000000005">................ . .::=+++#+=#+#*+**========+*#%@@@@@@@%#%###*=::..    ..... ........ . ..</tspan>
+      <tspan x="2" y="306.0">............... .:-+*+++=++*-**+#*#**======++*%%@@@@@##@##%*%+%###+++-.  .... ........... </tspan>
+      <tspan x="2" y="315.8">..........  .:--+#+#+=-*+*-**+:+#*+=**++=++*##%%@@%*%%@%@*##*#*%=*#*%*+*:   ......... ... </tspan>
+      <tspan x="2" y="325.6">:......  .-==*#=#+*-+++-=+++=*=*+*-*%%*##==++++++##%@@@*#%*%+#+##*#=##+%**..... ....... ..</tspan>
+      <tspan x="2" y="335.40000000000003">:::...:=-***-+=*-++++-+=++++=*++:*+#+*%*%%*%*=:-*%%%%+%#*%=***%+#=##*#-#*#*...  . ... . ..</tspan>
+      <tspan x="2" y="345.20000000000005">::.:==*++=++*++*++*++-+=*-=+++-*+++*+=#*#=#**##*%#:*####=%#*#+#+##*#=#*#=#+* .  ..... . . </tspan>
+      <tspan x="2" y="355.0">::=**-=+*-=*+*:*+#:=+=+-++=+=*=*+*-+*++=#=*#+**-#**##-*****-#*##=#=#*#+=**+%= . .. .... . </tspan>
+      <tspan x="2" y="364.8">-+=+=+*-**#=+***+*+=*=+:+=+-=+*+-*++++*-*+*=+#++-+-+#+*#=**+**=%=#*#+***##-#+  ..   .. .. </tspan>
+      <tspan x="2" y="374.6">++*=++*:**#=-#+#:*=*=-+++-+++++*-*+*:+++++*+=#*-+++*#*-#+**+=#+##+*=#*#-##=*%- .. .  ...  </tspan>
+      <tspan x="2" y="384.40000000000003">-+*:**+**+*#**#*++++==+=*:*=*:++*=+++***+:#***%=#++:=*=#*=*++**+#=*+#+*+%*#*#+   .  . ....</tspan>
+      <tspan x="2" y="394.20000000000005">+*+**+*+#-=##--#+#:+=#-+=++++=+=*==**-+*+**%=+%++**+##*=#=**++*=#***=***%*+%**==..... .. .</tspan>
+      <tspan x="2" y="404.0">*==+#:+*+#+###+*+*-++*:+=*--++==++*+*++**==#***==##+*#*-#***+-##*+=#****%%*%+*=**:. ..... </tspan>
+      <tspan x="2" y="413.8">#=***=****#-+*#-+++=*+=+++=+++==++==***+*++##=+*+++--*****=*****=%**+##*+#*##=-==-=+.   ..</tspan>
+      <tspan x="2" y="423.6">+***=*#*-%#+*#*+=+#+-+*:=++=++*+=++=+#-=**+**++#:=-#**#=+#*++#++#*#++###%%%#%====+++......</tspan>
+      <tspan x="2" y="433.40000000000003">:*#*:##*=##*%=#++#%***=**=#==+#:++*+=++*+#-=%**#+*#+:+*+*+#+=#**#=#*%=#@+%#%#%=+*++=:.....</tspan>
+      <tspan x="2" y="443.20000000000005">+###*+**%####:=+%+##=-*%-*+*++*=*+*-++*-******-%=+**%#++=*+###++%*#=##*@%%+*##-+=-+. .....</tspan>
+      <tspan x="2" y="453.00000000000006">+***:%*:##*%**+@@#*#+=##:#+*:*+*=*+**+#=#**-#**@=+#+=*#*+#+#-%*##++###@%#%##%#*==##+=..:..</tspan>
+      <tspan x="2" y="462.8">-**#*%#+%##@+#*%%%-#=+#***+**+**:#++-*+****+#++%*+**-+#*#**#*#*=#*##%#@%*%#*%+%+%*+*%#.:-:</tspan>
+      <tspan x="2" y="472.6">**#++@%**%-%#%%%%%*+*-##+=#+++*+*+**=##==%**+*#%==#***@++#***%**%*%**#@%##%#####++++=#%+++</tspan>
+      <tspan x="2" y="482.40000000000003">-##*+%%@*@=@+#%@-%*+##%#*=**=-#*-+***##*#*#-#%*+**+==:#%#***+%#*#+%#*@@@+###+%=+--=---=-=-</tspan>
+      <tspan x="2" y="492.20000000000005">**###*%=%+%%##@%*%=##*-##****#+#+**#-##**#+*##=-#=++*#%+*#*%##=###%=%##@%%#####+#+:-=-----</tspan>
+      <tspan x="2" y="502.00000000000006">*#*:%#%#@*%%@%=%%+*#*#+*#-+#+-#**+#####+-**+**++*=##==***##=*%###=@##%%@%#%*%=#%=#=:====*#</tspan>
+      <tspan x="2" y="511.8">*#%#*#*#@@#%@%##%+++%#**###+*=**+-%%=#*#*+#+++*-%++*=*+***%##%=%%#+%*@*#%######**++=@@@@@*</tspan>
+      <tspan x="2" y="521.6">*%=*#%-#%@@%@*%@=#++%#+-##:**#*+*##%=#**:%**+=+##-%#**###=%##*+#*+###@#%@*#%=#%=+#+*@@@@@:</tspan>
+      <tspan x="2" y="531.4000000000001">*#=#%###%@@@@#%@=*######*#=*#=-#*+%*#***+#*+.*#+*+**--=#*#+#%%%#*+%*%@@*#%+*##+#*%@@@@@@%.</tspan>
+      <tspan x="2" y="541.2">#+##%=*@@%@@@@%++*%=+%#-+***#++*#+%#=-#***+++*#=*=#+*##**-##*+@%##**%%@#%%**%=+@++#%@%#*@-</tspan>
+      <tspan x="2" y="551.0">*-##%#%%*@%=@%#*+###%#*++#-**==*#%#*+*+#-=++=#**#-*+++=**+%#*#%+%*%*##@@*%%*#-@%*+==-++=*+</tspan>
+      <tspan x="2" y="560.8000000000001">##%#:%%%%@%@@#+#==##=+**++#*+==%%-%*+=#+**=*=*#+=#=++++#**##+###@*##@%#%**+-*@@@%#*+:---=#</tspan>
+      <tspan x="2" y="570.6">=###=@##@%@@#@=#**##*+#==#*=++###**+*:#+*=*+##*+***-##**#=###*##@*=#%#*#*++==#%%#%+:----:=</tspan>
+      <tspan x="2" y="580.4000000000001">*%##%%*#%@@%#*=*#+*##+*+##=+**=%%=*+****+=#*==##*++***=+***#=+#=@%%#%**#*+===+*=+*--------</tspan>
+      <tspan x="2" y="590.2">##-+%%%##@@%%=*##**##:**=*+++#*#%:**#:*****++=**.**+=****+-%###*@**#%#***+=-==#=-*#=-:----</tspan>
+      <tspan x="2" y="600.0">##%%%+@%@@****=*##*****#:*=+**##*#*+*=*+*:*+****++#+=#*=**+%+*%+*%%*@#+======+%-+=#*%*+++=</tspan>
+      <tspan x="2" y="609.8000000000001">***###@%#+-#+#**##==#=**+++=*#=#*=+*+*++*-++*:##=+###**=#**%**%*#*%*%#*++====+%=-+#**+**==</tspan>
+      <tspan x="2" y="619.6">++++*%%+#-+@-##*#**+*-**-**+#%#**+++*-+*=+++#**#==#*-#***#=###+*%=@#%%*++++=*+#-.**#*-+===</tspan>
     </text>
   </g>
 
   <!-- Left Separator -->
-  <line x1="18" y1="390" x2="318" y2="390" class="subtle-divider" />
+  <line x1="16" y1="690" x2="294" y2="690" class="subtle-divider" />
 
   <!-- Contact Block -->
-  <g transform="translate(24, 406)" class="term-text">
+  <g transform="translate(20, 706)" class="term-text">
     <text x="0" y="14" class="accent-section">Contact</text>
-    <text x="0" y="26" class="text-dim">──────────────────────────</text>
-    <text x="0" y="48" class="text-dim">GitHub:</text>
-    <text x="75" y="48" class="text-bright">eayushsingh</text>
-    <text x="0" y="70" class="text-dim">LinkedIn:</text>
-    <text x="75" y="70" class="text-bright">Ayush Singh</text>
-    <text x="0" y="92" class="text-dim">LeetCode:</text>
-    <text x="75" y="92" class="text-bright">eayushsingh</text>
+    <text x="0" y="26" class="text-dim">──────────────────────</text>
+    <text x="0" y="46" class="text-dim">GitHub:</text>
+    <text x="70" y="46" class="text-bright">eayushsingh</text>
+    <text x="0" y="66" class="text-dim">LinkedIn:</text>
+    <text x="70" y="66" class="text-bright">Ayush Singh</text>
+    <text x="0" y="86" class="text-dim">LeetCode:</text>
+    <text x="70" y="86" class="text-bright">eayushsingh</text>
   </g>
 
   <!-- ================= RIGHT: NEOFETCH SPECS & STATS ================= -->
-  <g transform="translate(360, 40)" class="term-text">
+  <g transform="translate(330, 40)" class="term-text">
     <!-- Identity Header -->
-    <text x="0" y="16" class="accent-green" font-size="14" font-weight="600">ayushsingh</text>
-    <text x="100" y="16" class="text-dim" font-size="11">@ github</text>
-    <circle cx="165" cy="12" r="3" fill="#1a7f37" />
-    <text x="173" y="16" fill="#1a7f37" font-size="10">online</text>
+    <text x="0" y="16" class="accent-green" font-size="13.5" font-weight="600">ayushsingh</text>
+    <text x="95" y="16" class="text-dim" font-size="11">@ github</text>
+    <circle cx="158" cy="12" r="3" fill="#1a7f37" />
+    <text x="166" y="16" fill="#1a7f37" font-size="10">online</text>
     <text x="0" y="28" class="text-dim">─────────────────────────────────────────────────</text>
-
-    <!-- System Info -->
-    <text x="0" y="48" class="accent-blue">OS:</text>
-    <text x="90" y="48" class="text-bright">macOS / Linux</text>
-    <text x="0" y="66" class="accent-blue">Host:</text>
-    <text x="90" y="66" class="text-bright">Ayush Singh</text>
-    <text x="0" y="84" class="accent-blue">Location:</text>
-    <text x="90" y="84" class="text-bright">India 🇮🇳</text>
-    <text x="0" y="102" class="accent-blue">IDE:</text>
-    <text x="90" y="102" class="text-bright">VS Code</text>
-    <text x="0" y="120" class="accent-blue">Role:</text>
-    <text x="90" y="120" class="text-bright">AI Engineer · Full-Stack Developer</text>
-
-    <!-- Languages.Programming -->
-    <text x="0" y="146" class="accent-section">Languages.Programming</text>
-    <text x="0" y="158" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="174" class="text-bright">Python · Java · JavaScript</text>
-    <text x="0" y="190" class="text-bright">TypeScript · SQL</text>
-
-    <!-- Languages.Framework -->
-    <text x="0" y="214" class="accent-section">Languages.Framework</text>
-    <text x="0" y="226" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="242" class="text-bright">Next.js · React · Spring Boot</text>
-    <text x="0" y="258" class="text-bright">FastAPI</text>
-
-    <!-- Data.Infrastructure -->
-    <text x="0" y="282" class="accent-section">Data.Infrastructure</text>
-    <text x="0" y="294" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="310" class="text-bright">PostgreSQL · Supabase · Redis</text>
-    <text x="0" y="326" class="text-bright">Docker</text>
-
-    <!-- Focus -->
-    <text x="0" y="350" class="accent-section">Focus</text>
-    <text x="0" y="362" class="text-dim">─────────────────────────────────────────────────</text>
-    <text x="0" y="378" class="text-bright">FinTech · AI · Backend</text>
-    <text x="0" y="394" class="text-bright">Distributed Systems</text>
-
-    <!-- GitHub Stats -->
-    <text x="0" y="418" class="accent-section">GitHub Stats</text>
-    <text x="0" y="430" class="text-dim">─────────────────────────────────────────────────</text>
-
-    <text x="0" y="450" class="text-dim">Repos:</text>
-    <text x="110" y="450" class="text-leader">································</text>
-    <text x="430" y="450" class="accent-green">45</text>
-
-    <text x="0" y="468" class="text-dim">Stars:</text>
-    <text x="110" y="468" class="text-leader">································</text>
-    <text x="430" y="468" class="accent-green">1</text>
-
-    <text x="0" y="486" class="text-dim">Followers:</text>
-    <text x="110" y="486" class="text-leader">································</text>
-    <text x="430" y="486" class="accent-green">13</text>
-
-    <text x="0" y="504" class="text-dim">Commits/yr:</text>
-    <text x="110" y="504" class="text-leader">································</text>
-    <text x="430" y="504" class="accent-green">LIVE</text>
-
-    <text x="0" y="522" class="text-dim">Contribs/yr:</text>
-    <text x="110" y="522" class="text-leader">································</text>
-    <text x="430" y="522" class="accent-green">LIVE</text>
-    <rect x="472" y="512" width="6.5" height="12" class="cursor" />
+    <text x="0" y="46" class="accent-blue">Title:</text>
+    <text x="85" y="46" class="text-bright">Chief Technology Officer</text>
+    <text x="0" y="64" class="accent-blue">Domain:</text>
+    <text x="85" y="64" class="text-bright">FinTech &amp; Autonomous Systems</text>
+    <text x="0" y="82" class="accent-blue">Loc:</text>
+    <text x="85" y="82" class="text-bright">India 🇮🇳</text>
+    <text x="0" y="108" class="accent-section">Core Strategy &amp; Architecture</text>
+    <text x="0" y="120" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="138" class="text-bright">• High-Throughput Arbitrage Engines</text>
+    <text x="0" y="156" class="text-bright">• L2/L3 Orderbook Predictive Analytics</text>
+    <text x="0" y="174" class="text-bright">• Distributed Event-Driven Abstractions</text>
+    <text x="0" y="192" class="text-bright">• Graph-Based Settlement Systems</text>
+    <text x="0" y="218" class="accent-section">AI Systems &amp; Infrastructure</text>
+    <text x="0" y="230" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="248" class="text-bright">• Autonomous Voice Agents &amp; Function Calling</text>
+    <text x="0" y="266" class="text-bright">• Intelligent Pipeline Orchestration</text>
+    <text x="0" y="284" class="text-bright">• Collaborative Real-Time State Sync</text>
+    <text x="0" y="310" class="accent-section">GitHub Stats</text>
+    <text x="0" y="322" class="text-dim">─────────────────────────────────────────────────</text>
+    <text x="0" y="340" class="text-dim">Repos:</text>
+    <text x="100" y="340" class="text-leader">································</text>
+    <text x="400" y="340" class="accent-green">45</text>
+    <text x="0" y="358" class="text-dim">Stars:</text>
+    <text x="100" y="358" class="text-leader">································</text>
+    <text x="400" y="358" class="accent-green">1</text>
+    <text x="0" y="376" class="text-dim">Followers:</text>
+    <text x="100" y="376" class="text-leader">································</text>
+    <text x="400" y="376" class="accent-green">13</text>
+    <text x="0" y="394" class="text-dim">Commits/yr:</text>
+    <text x="100" y="394" class="text-leader">································</text>
+    <text x="400" y="394" class="accent-green">LIVE</text>
+    <text x="0" y="412" class="text-dim">Contribs/yr:</text>
+    <text x="100" y="412" class="text-leader">································</text>
+    <text x="400" y="412" class="accent-green">LIVE</text>
+    <rect x="440" y="402" width="6.5" height="12" class="cursor" />
   </g>
 </svg>
