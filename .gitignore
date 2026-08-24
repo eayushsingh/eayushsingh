@@ -14,3 +14,9 @@ assets/*_test*.jpg
 assets/cropped*.jpg
 assets/cropped*.bmp
 assets/subject_crop.*
+
+# C++ build directories & binaries
+hft-limit-order-book/build/
+hft-limit-order-book/lob_tests
+hft-limit-order-book/lob_benchmarks
+

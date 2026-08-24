@@ -1,0 +1,44 @@
+name: HFT LOB CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake ninja-build g++-13 clang-17
+
+    - name: Configure CMake (ASan enabled)
+      run: |
+        cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug -GNinja \
+          -DCMAKE_CXX_COMPILER=clang++-17 \
+          -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fno-omit-frame-pointer"
+
+    - name: Build LOB
+      run: cmake --build build
+
+    - name: Run Tests (ASan verification)
+      run: ./build/lob_tests
+
+    - name: Configure CMake (TSan enabled)
+      run: |
+        rm -rf build
+        cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug -GNinja \
+          -DCMAKE_CXX_COMPILER=clang++-17 \
+          -DCMAKE_CXX_FLAGS="-fsanitize=thread"
+
+    - name: Build LOB with TSan
+      run: cmake --build build
+
+    - name: Run Tests (TSan verification)
+      run: ./build/lob_tests
